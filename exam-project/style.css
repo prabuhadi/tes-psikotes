@@ -76,6 +76,13 @@ body {
 .text-info {
 }
 
+.questions-timer {
+  display: block;
+  background-color: blue;
+  border-radius: 9px;
+  text-align: center;
+}
+
 /*/ /////////////////// List Section ////////////////////*/
 
 .section-list {
@@ -142,12 +149,38 @@ body {
   gap: 24px;
 }
 
-.questions-timer {
-  display: block;
-  background-color: blue;
-  /* height: 64px; */
-  border-radius: 9px;
+.timer-primary {
   text-align: center;
   padding: 24px;
+  color: #fff;
+}
+
+.btn-question {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-questions {
+  font-size: 16px;
+}
+
+.questions-example {
+  background-color: aquamarine;
+  height: 150px;
+}
+
+.questions-content {
+  background-color: aquamarine;
+  height: 150px;
+}
+
+.questions-answer {
+  background-color: aquamarine;
+  height: 200px;
+}
+
+.timer-secondary {
+  padding: 18px;
+  margin: auto 0 0 0;
   color: #fff;
 }
