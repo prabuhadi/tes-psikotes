@@ -1,0 +1,118 @@
+/*//////////////////// Color Pallete ////////////////////*/
+
+/* 
+main color: #A2D2FF
+secondary color: #BDE0FE
+tint: #516980
+*/
+
+/*//////////////////// Global Preset ////////////////////*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #333;
+}
+
+/*/ /////////////////// Reusable Style ////////////////////*/
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 20px;
+  padding: 12px 24px;
+  border-radius: 9px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.btn:link,
+.btn:visited {
+  background-color: #bde0fe;
+  color: #fff;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #bde0fe;
+  color: #333;
+  box-shadow: 0 3px 2px 2px #a2d2ff;
+  position: relative;
+  top: -3px;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: 1.5fr 2.5fr;
+}
+
+.grid--10-cols {
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.secondary-header {
+}
+
+.text-info {
+}
+
+/*/ /////////////////// List Section ////////////////////*/
+
+.section-list {
+  padding: 16px 0;
+}
+
+.list {
+  padding: 16px;
+  border: #555 solid 2px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  border-radius: 9px;
+  background-color: #f6fbff;
+}
+
+/*/ /////////////////// Question Section ////////////////////*/
+
+.section-question {
+  padding: 16px 0;
+}
+
+.question {
+  background-color: #f6fbff;
+  height: 1200px;
+  border-radius: 9px;
+}
+
+.information {
+  border: #555 solid 2px;
+  margin: 6px;
+  border-radius: 9px;
+  padding: 24px;
+}
+
+.questions {
+  border: #555 solid 2px;
+  margin: 6px;
+  border-radius: 9px;
+}
