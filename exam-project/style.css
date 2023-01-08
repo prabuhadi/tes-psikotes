@@ -99,6 +99,18 @@ body {
   background-color: #f6fbff;
 }
 
+.user {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.user-info {
+  padding: 5px 0;
+  text-align: center;
+  background-color: rgba(189, 224, 254, 0.5);
+}
+
 /*/ /////////////////// Question Section ////////////////////*/
 
 .section-question {
